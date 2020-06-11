@@ -1,0 +1,40 @@
+{
+  "name": "seniors-stylis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && tsc -p tsconfig.umd.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcello-oliveira/seniors-stylis.git"
+  },
+  "author": "Marcello Marques de Oliveira <oliv.marq.marcello@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcello-oliveira/seniors-stylis/issues"
+  },
+  "dependencies": {
+    "@emotion/stylis": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "homepage": "https://github.com/marcello-oliveira/seniors-stylis#readme",
+  "keywords": [
+    "stylis",
+    "acessibility"
+  ]
+}
