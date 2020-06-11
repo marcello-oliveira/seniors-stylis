@@ -1,6 +1,6 @@
 {
   "name": "seniors-stylis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@emotion/stylis to browsers which can't use :host() or :slotted()",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
